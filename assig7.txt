@@ -1,0 +1,44 @@
+ANS 1	The JDBC API is a Java API that can access any kind of tabular data, especially data stored in a relational database. JDBC helps you to write Java applications that manage these three programming activities: Connect to a data source, like a database. Send queries and update statements to the database.
+
+ANS 2	Import the Packages.
+Load the drivers using the forName() method.
+Register the drivers using DriverManager.
+Establish a connection using the Connection class object.
+Create a statement.
+Execute the query.
+Close the connections.
+
+ANS 3 	There are different types of statements that are used in JDBC as follows:
+
+Create Statement
+Prepared Statement
+Callable Statement
+
+ANS 4	Servlet technology is robust and scalable because of java language. Before Servlet, CGI (Common Gateway Interface) scripting language was common as a server-side programming language. However, there were many disadvantages to this technology.
+
+AN 5	The web container maintains the life cycle of a servlet instance. Let's see the life cycle of the servlet:
+
+Servlet class is loaded.
+Servlet instance is created.
+init method is invoked.
+service method is invoked.
+destroy method is invoked.
+
+ANS 6	Difference between SendRedirect method and RequestDispatcher forward method. The forward () method of the RequestDispatcher works on the server-side, while the SendRedirect() method works on the client-side. Request dispatcher works on the request object, while SendRedirect() works on the response object.
+
+ANS 7	The doGet method is called by the server (via the service method) when the client requests a GET request. It is used to retrieve information from the server. The doPost method is called by the server (via the service method) when the client requests a POST request. It is used to send information to the server.
+
+ANS 8	MVC stands for Model View and Controller. It is a design pattern that separates the business logic, presentation logic and data.
+Controller acts as an interface between View and Model. ...
+Model represents the state of the application i.e. data. ...
+View represents the presentaion i.e. UI(User Interface).
+
+ANS 9	Better performance: because it creates a thread for each request, not process.
+Portability: because it uses Java language.
+Robust: JVM manages Servlets, so we don't need to worry about the memory leak, garbage collection, etc.
+Secure: because it uses java language.
+
+ANS 10	It is very difficult for developers to perform database connectivity in JSP.
+As the JSP is compiled on the server, it is not memory and time-efficient.
+It is hard to track errors in JSP files because they are an extension to Servlets. ...
+As JSP is an HTML file, it doesn't provide many features.
